@@ -1,7 +1,19 @@
 package calculator
 
+// package level
+var Pi = 3.141592654
+
 func Add(left int, right int) int {
-	return left + right
+	//var sum int = left + right
+
+	//var sum = left + right
+
+	//var sum int
+	//sum = left + right
+
+	sum := left + right
+
+	return sum
 }
 
 func Sub(left, right int) int {
