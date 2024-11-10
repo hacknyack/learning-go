@@ -12,4 +12,6 @@ func main() {
 	fmt.Println(calculator.SumUntil(0))
 	fmt.Println(calculator.Abs(5))
 	fmt.Println(calculator.IsSquareNumber(25))
+	fmt.Println(calculator.SumFromAToB(1, 4))
+	fmt.Println(calculator.MultiplyFromAToB(1, 10))
 }
